@@ -44,6 +44,6 @@ int main()
     {
         cout << "Smallest length subaarray is: " << minLength << endl;
     }
-
+// changes to test gihub 
     return 0;
 }
