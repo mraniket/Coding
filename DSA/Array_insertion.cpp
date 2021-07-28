@@ -19,6 +19,11 @@ int indInsertion(int arr[], int size, int element, int capacity, int index)
 
         return -1;
     }
+    // for (int i = 0; i<size; i++)
+    // {
+    //     arr[i] = arr[i];
+    // }
+    // arr[size] = element;
     for (int i = size - 1; i >= index; i--)
     {
         arr[i + 1] = arr[i];
@@ -35,6 +40,11 @@ int main()
     int element = 45, index = 3;
     indInsertion(arr, size, element, 100, index);
     size += 1;
-    display(arr, size);
+    // display(arr, size);
+    for (int i = 0; i < size; i++)
+    {
+        cout << "  " << arr[i];
+    }
+    cout << endl;
     return 0;
 }

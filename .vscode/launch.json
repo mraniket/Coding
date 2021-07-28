@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch P1",
+            "request": "launch",
+            "mainClass": "P1",
+            "projectName": "Data_Structures_2ca4d98d"
+        },
+        {
+            "type": "java",
+            "name": "Launch MacroP1",
+            "request": "launch",
+            "mainClass": "pr3.MacroP1",
+            "projectName": "Data_Structures_2ca4d98d"
+        },
+        {
+            "type": "java",
+            "name": "Launch MACRO",
+            "request": "launch",
+            "mainClass": "MACRO",
+            "projectName": "Data_Structures_2ca4d98d"
+        },
+        {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
