@@ -1,4 +1,4 @@
-//a  umber whos sum of cubes of all digits is equal to that number is a armstrong number
+//a  number whos sum of cubes of all digits is equal to that number is a armstrong number
 #include <iostream>
 using namespace std;
 int main()
