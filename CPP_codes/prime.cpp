@@ -1,24 +1,37 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-
-int main(){
-
-    int n,m, prime=0;
-    cout<<"Enter a number to check if it is prime or not :";
-    cin>>n;
-    m = n/2;
-    for(int i=2; i<=m; i++){
+int isPrime(int n){
+    for(int i=2; i<=n/2; i++){
         if(n%i==0){
-            cout<<"Number is not prime"<<endl;
-            prime = 1;
-            break;
+            return 0;
         }
         
+            
+        
     }
-    if(prime==0){
-        cout<<"Number is  prime"<<endl;
+    return 1;
+}
+
+int main(){
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0; i<n; i++){
+        cin>>arr[i];
+    }
+
+    for(int i=0; i<n; i++){
+
+        if(isPrime(arr[i])){
+            cout<<arr[i]<<" is prime"<<endl;
+        }else{
+            cout<<arr[i]<<" is not prime"<<endl;
+        }
+
+
+
     }
     return 0;
 }
-
